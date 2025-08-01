@@ -3,6 +3,9 @@
 
 * {
     font-family: "Comic Neue", cursive;
+    /* IMPORTANT: as heights of boxes will stay the same (128px) even if we add paddings */
+    /* See .result-message-container */
+    box-sizing: border-box;
 }
 
 body {
@@ -92,7 +95,8 @@ main {
     border-radius: 10px;
     text-align: center;
     height: 128px;
-    width: 100%;     
+    width: 100%;  
+    padding: 20px   
 }
 
 .result-message-container p {
