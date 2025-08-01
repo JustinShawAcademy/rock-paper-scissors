@@ -1,0 +1,102 @@
+@import url(
+     'https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+* {
+    font-family: "Comic Neue", cursive;
+}
+
+body {
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #FFCF68;
+    color: #5B4844;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: fit-content;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+.title-container h1 {
+    margin-bottom: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rps-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.choice-item {
+    background-color: #fcebae; 
+    border-color: transparent;
+    border-radius: 10px;                   
+    text-align: center;       
+    width: 128px;             
+    aspect-ratio: 1 / 1;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.choice-item p {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.score-item {
+    background-color: #f8f0d0; 
+    border-color: transparent;
+    border-radius: 10px;                   
+    text-align: center;       
+    height: 128px;
+    width: 200px;
+
+}
+
+.result-message-container {
+    background-color: #f8f0d0;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    height: 128px;
+    width: 100%;     
+}
+
+.result-message-container p {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}

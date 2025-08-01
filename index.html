@@ -5,9 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
 </head>
+<link rel="stylesheet" href="styles.css">
 <body>
+    
+    <main>
+        <div class="title-container">    
+            <h1>Rock Paper Scissors</h1>
+            <h3>Choose your weapon!</h3>
+        </div>
+
+        <div class="game-container">
+            <div class="rps-buttons">
+                <button class="choice-item" id="rock">
+                    <img src="img/rock.png">
+                    <p>rock</p>
+                </button>
+                <button class="choice-item" id = "paper">
+                    <img src="img/paper.png">
+                    <p>paper</p>
+                </button>
+                <button class="choice-item" id = "scissors">
+                    <img src="img/scissors.png">
+                    <p>scissors</p>
+                </button>
+            </div>
+
+            <div class="score-container">
+                <div class="score-item">
+                    <p>Your score</p>
+                    <p id="human-score">0</p>
+                </div>
+                <div class="score-item">
+                    <p>Computer score</p>
+                    <p id="computer-score">0</p>
+                </div>
+            </div>
+            <div class="result-message-container">
+            
+                <p id="win-lose-tie"></p>
+                <p id="player-choice"></p>
+                <p id="computer-choice"></p>
+            
+            </div>
+
+        </div>
+    </main>
     <script src="javascript.js"> </script>
-    <h1>Rock-Paper-Scissors game written in javascript</h1>
-    <p>In order to see outputs, right click > inspect > Console</p>
 </body>
 </html>
