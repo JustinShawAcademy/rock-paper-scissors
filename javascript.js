@@ -44,34 +44,6 @@ function playRound(humanChoice, computerChoice) {
 
 }
 
-
-
-// function playGame (numOfTimes) {
-//     humanScore = 0;
-//     computerScore = 0;
-
-//     for (let i = 0; i < numOfTimes; i++) {
-//         console.log(`--- Round ${i + 1} ---`);
-//         const humanSelection = getHumanChoice();
-//         const computerSelection = getComputerChoice();
-//         playRound(humanSelection, computerSelection)
-//     }
-
-//     console.log(`
-// --- Game Over ---`);
-//     console.log(`Final Score: Human score: ${humanScore} | Computer score: ${computerScore}`)
-
-//     if (humanScore > computerScore) {
-//         console.log("Congratulations! You won the game!");
-//     } else if (computerScore > humanScore) {
-//         console.log("Too bad! The computer won the game.");
-//     } else {
-//         console.log("It's a tie game!");
-//     }
-// }
-
-// playGame(5);
-
 const buttons = document.querySelectorAll('.choice-item');
 
 buttons.forEach((button) =>  {
