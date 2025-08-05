@@ -1,6 +1,8 @@
 # Rock Paper Scissors
 A [website](https://justinshawacademy.github.io/rock-paper-scissors/) using HTML, CSS, and Javascript. 
 
+![website](img/website_landing_page.png)
+
 ### Core JavaScript Concepts
 
 *   **DOM Manipulation:** The ability to connect JavaScript to HTML and dynamically change the content and structure of the page.
